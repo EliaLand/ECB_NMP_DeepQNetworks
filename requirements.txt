@@ -1,0 +1,8 @@
+pandas
+numpy
+PyPDF2
+streamlit
+Pillow
+pdf2image
+easyocr
+nltk
