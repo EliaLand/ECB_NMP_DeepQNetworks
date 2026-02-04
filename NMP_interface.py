@@ -608,59 +608,63 @@ if st.session_state.get("info"):
     st.write("")
 
     st.markdown(
-    """
-    <div style="text-align: left; align-items: left;">
-
+        """
     # **NAVIGATION**
-    The interface has a sidebar with navigation buttons to switch between different sections:
 
-    -   **Home**
-    -   **NMP Invoice Checker**
-    -   **Info**
+    The interface includes a sidebar with navigation buttons to switch between sections:
 
-    ####
-    
+    - **Home**
+    - **NMP Invoice Checker**
+    - **Info**
+
+    ---
+
     # **HOME**
-    The Home section is the default landing page of the interface. It displays the ECB logo and the title "NMP INVOICE CHECKER".
 
-    ####
+    The Home section is the default landing page.  
+    It displays the ECB logo and the title **“NMP INVOICE CHECKER”**.
+
+    ---
 
     # **NMP INVOICE CHECKER**
-    This section is divided into four chapters:
 
-    #### Upload Your Control File
-    Navigate to NMP Invoice Checker: Click on the "NMP Invoice Checker" button in the sidebar.
+    This section is divided into four main steps.
 
-    -   Click on the "CONTROL FILE" button.
-    -   Upload your control Excel file (either .xlsx or .csv format).
-    -   Select the columns you want to display from the uploaded file.
-    -   The selected columns will be displayed in a table.
+    ## Upload Your Control File
 
-    #### Upload Your Invoices
-    Navigate to NMP Invoice Checker: Click on the "NMP Invoice Checker" button in the sidebar.
+    1. Open **NMP Invoice Checker** from the sidebar.
+    2. Click on **CONTROL FILE**.
+    3. Upload your control Excel file (`.xlsx` or `.csv`).
+    4. Select the columns you want to display.
+    5. The selected columns are shown in a table.
 
-    -   Click on the "INVOICES" button.
-    -   Upload your invoices in PDF format.
-    -   The text from the invoices will be extracted and tokenized.
+    ## Upload Your Invoices
 
-    #### Invoice Verification
-    Navigate to NMP Invoice Checker: Click on the "NMP Invoice Checker" button in the sidebar.
+    1. Click on **INVOICES**.
+    2. Upload invoice files in **PDF format**.
+    3. Invoice text is extracted and tokenized automatically.
 
--    Click on the "VERIFICATION" button.
--    Select the matching criteria from the control Excel file columns.
--    Select the corresponding columns for "Invoice Number", "Supplier", and "Amount"
--    Click on the "Launch invoice verification" button to start the verification process.
-    
-    The matching results will be displayed in a table.
+    ## Invoice Verification
 
-    #### Validation
-    Navigate to NMP Invoice Checker: Click on the "NMP Invoice Checker" button in the sidebar.
+    1. Click on **VERIFICATION**.
+    2. Select the matching criteria from the control file columns.
+    3. Map the following fields:
+    - **Invoice Number**
+    - **Supplier**
+    - **Amount**
+    4. Click **Launch invoice verification**.
 
-    ####
+    The verification results are displayed in a table.
+
+    ## Validation
+
+    This section allows you to review and validate the verification results.
+
+    ---
 
     # **INFO**
-    The Info section provides general information and a chat bot for assistance.
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
+    The Info section provides general information about the application  
+    and includes a chatbot for user assistance.
+        """
+    )
