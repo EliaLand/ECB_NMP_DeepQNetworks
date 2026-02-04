@@ -8,7 +8,7 @@
 # ------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 # Streamlit-based user interface
-# in terminal: streamlit run "C:\Users\landini\Desktop\Code\NMP\toshare\NMP_interface.py"
+# in terminal: streamlit run d:/ECB/ECB_NMP_DeepQNetworks/NMP_interface.py
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import subprocess
@@ -335,7 +335,7 @@ if st.session_state.get("NMPinvoicechecker"):
             if control_excel.name.endswith(".xlsx"):
                 control_excel_rawdf = pd.read_excel(control_excel)
             else:
-                control_excel_rawdf = pd.read_csv(control_excel)        #####!!!!!!!!!!!!!! Make the 
+                control_excel_rawdf = pd.read_csv(control_excel)        #####!!!!!!!!!!!!!! 
 
             selected_columns = st.multiselect("Select the columns to display", control_excel_rawdf.columns)
             control_excel_df = control_excel_rawdf[selected_columns]  
