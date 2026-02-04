@@ -7,6 +7,8 @@ The ECB manages an extensive and complex real estate portfolio across multiple j
 
 
 <div align="left">
+
+  
 # **NAVIGATION**
 
   The interface includes a sidebar with navigation buttons to switch between sections:
@@ -17,14 +19,14 @@ The ECB manages an extensive and complex real estate portfolio across multiple j
 
   ---
 
-  # **HOME**
+# **HOME**
 
   The Home section is the default landing page.  
   It displays the ECB logo and the title **“NMP INVOICE CHECKER”**.
 
   ---
 
-  # **NMP INVOICE CHECKER**
+# **NMP INVOICE CHECKER**
 
   This section is divided into four main steps.
 
@@ -60,7 +62,7 @@ The ECB manages an extensive and complex real estate portfolio across multiple j
 
   ---
 
-  # **INFO**
+# **INFO**
 
   The Info section provides general information about the application  
   and includes a chatbot for user assistance.
